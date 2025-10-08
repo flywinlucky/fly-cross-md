@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1.1",
+        "name": "Adida\u0219i Puma Anzarun Lite",
+        "price": "1399 MDL",
+        "images": [
+            "images/Adida\u0219i/photo_1.jpg",
+            "images/Adida\u0219i/photo_2.jpg",
+            "images/Adida\u0219i/photo_3.jpg",
+            "images/Adida\u0219i/photo_4.jpg",
+            "images/Adida\u0219i/photo_5.jpg"
+        ],
+        "category": "Adida\u0219i",
+        "description": "Adida\u0219ii Puma Anzarun Lite \u00eentruchipeaz\u0103 stilul sofisticat \u0219i confortul de zi cu zi pentru cei care pre\u021buiesc flexibilitatea \u0219i u\u0219urin\u021ba. Perfec\u021bi pentru mers pe jos, odihn\u0103 active sau \u021binute casual, ace\u0219tia combin\u0103 designul modern cu tehnologia PUMA de ultim\u0103 genera\u021bie.\n\nFa\u021ba superioar\u0103 din plas\u0103 cu suprapuneri sintetice ofer\u0103 o ventila\u021bie \u0219i o durabilitate excelente, \u00een timp ce talpa interioar\u0103 moale \u0219i amortizant\u0103 SOFTFOAM +  se adapteaz\u0103 formei piciorului pentru confort pe tot parcursul zilei.\n\nTalpa intermediar\u0103 u\u0219oar\u0103 din EVA absoarbe \u0219ocurile, asigur\u00e2nd un pas lin. \u00cenchiderea cu \u0219ireturi \u0219i o bucl\u0103 la c\u0103lc\u00e2i faciliteaz\u0103 \u00eenc\u0103l\u021barea, \u00een timp ce gulerul jos \u0219i c\u0103ptu\u0219eala din plas\u0103 adaug\u0103 confort \u0219i respirabilitate.\n\nDungile sintetice PUMA Formstrips pe laterale \u0219i brandingul PUMA Cat pe v\u00e2rf \u0219i limb\u0103 sporesc estetica emblematic\u0103 a brandului. Fabrica\u021bi din materiale sustenabile, ace\u0219ti adida\u0219i vor fi partenerul dvs. de \u00eencredere pentru orice ocazie.\n\nDeveni\u021bi parte a stilului PUMA! Comanda\u021bi acum Puma Anzarun Lite \u0219i intra\u021bi \u00een ritmul confortului \u0219i modei!\n\nCaracteristici:\n\n\u2022 Parte superioar\u0103 din plas\u0103 cu suprapuneri sintetice\n\u2022 Talp\u0103 interioar\u0103 SOFTFOAM+ moale \u0219i amortizant\u0103\n\u2022 Talp\u0103 intermediar\u0103 u\u0219oar\u0103 din EVA\n\u2022 \u00cenchidere cu \u0219ireturi\n\u2022 Bucl\u0103 de tragere la c\u0103lc\u00e2i\n\u2022 Guler jos\n\u2022 C\u0103ptu\u0219eal\u0103 din plas\u0103\n\u2022 Dungi sintetice Puma Formstrips pe laterale\n\u2022 Detalii cu brandingul PUMA Cat\n\nMateriale:\n\n\u2022 Parte superioar\u0103: 74,92% textil, 25,08% sintetic\n\u2022 Talp\u0103 interioar\u0103: 100% textil\n\u2022 C\u0103ptu\u0219eal\u0103: 100% textil\n\u2022 Talp\u0103 intermediar\u0103: 100% sintetic\n\u2022 Talp\u0103 exterioar\u0103: 100% sintetic",
+        "isTrending": true,
+        "old_price": "1499 MDL",
+        "product_sizes": [
+            "35.5",
+            "36",
+            "37",
+            "37.5",
+            "38",
+            "38.5",
+            "39",
+            "40",
+            "40.5",
+            "41",
+            "42",
+            "42.5",
+            "43",
+            "44",
+            "44.5",
+            "45",
+            "46",
+            "47",
+            "48"
+        ]
+    },
+    {
+        "id": "1.2",
+        "name": "Anzarun Lite",
+        "price": "33 MDL",
+        "images": [
+            "images/Adida\u0219i/photo_6.jpg",
+            "images/Adida\u0219i/photo_7.jpg"
+        ],
+        "category": "Adida\u0219i",
+        "description": "evefef",
+        "isTrending": true
+    }
+]
