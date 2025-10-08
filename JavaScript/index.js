@@ -41,16 +41,12 @@ function generateProductCard(product, sizeDropdown) {
                 ${product.isNew ? `<div class="new-flag">NOU</div>` : ''}
                 ${product.out_Off_stock ? `<div class="out-of-stock">Stoc epuizat</div>` : ''}
                 <img src="${product.images[0]}" onclick="displayDetails('${product.id}');">
-    
-                <a href="#" class="addToCart">
-                    <ion-icon name="cart-outline" class="Cart"></ion-icon>
-                </a>
+     
             </div>
             <div class="card-info">
                 <h4 class="product-name" onclick="displayDetails('${product.id}');" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">${product.name}</h4>
                 <h5 class="product-price">${product.price}</h5>
                 ${product.old_price ? `<h5 class="old-price">${product.old_price}</h5>` : ''}
-                ${sizeDropdown}
             </div>
         </div>`;
 }

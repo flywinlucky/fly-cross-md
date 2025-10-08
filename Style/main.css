@@ -680,8 +680,8 @@ body.showCart .cart-overlay {
 }
 
 .black-footer {
-    background-color: #E8E8E8; /* Light grey */
-    color: #000000;
+    background-color: #222; /* Light grey */
+    color: #ffffff;
 }
 
 .footer .footer-top {
@@ -1107,9 +1107,7 @@ input[type=number] {
     color: white;
     padding: 2px 5px;
     font-weight: bold;
-    border-radius: 3px;
     z-index: 10; /* Asigură-te că este deasupra imaginii */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Shadow mai accentuat la hover */
 }
 .card-img {
     position: relative; /* Permite poziționarea absolută a sale-flag */
