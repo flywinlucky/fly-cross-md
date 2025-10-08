@@ -228,7 +228,7 @@ header {
 }
 
 .header_top {
-    background-color: #E8E8E8; /* Light grey */
+    background-color: #222; /* Light grey */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -327,7 +327,7 @@ nav ul li a {
     gap: 15px; /* Spațiu între butoane */
     margin: 0;
     padding: 0;
-      background-color: #E8E8E8; /* Light grey */
+      background-color: #222 /* Light grey */
 }
 
 .nav-buttons li {
@@ -336,7 +336,6 @@ nav ul li a {
 
 .nav-buttons li a {
     display: inline-block;
-    background-color: #d3d3d3; /* Light grey */
     color: #ffffff; /* Culoare text */
     font-size: 1rem; /* Dimensiune text adaptivă */
     font-weight: 500;
@@ -344,7 +343,6 @@ nav ul li a {
     padding: 8px 16px; /* Dimensiuni buton adaptate */
     border-radius: 5px; /* Colțuri rotunjite */
     transition: all 0.3s ease; /* Tranziție pentru hover */
-    box-shadow: 0px 4px 6px rgba(162, 162, 162, 0.2); /* Umbră la hover */
 }
 
 /* Media Queries pentru dispozitive mici */

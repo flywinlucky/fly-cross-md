@@ -74,11 +74,6 @@ function generateProductCard(product, sizeDropdown) {
                 ${product.isNew ? `<div class="new-flag">NOU</div>` : ''}
                 ${product.out_Off_stock ? `<div class="out-of-stock">Stoc epuizat</div>` : ''}
                 <img src="${product.images[0]}" alt="${product.name}" onclick="displayDetails('${product.id}');">
-                <div class="card-watermark-logo">
-                    <a href="link_catre_imagine.html">
-                        <img src="images/logo_block.png" alt="Image description">
-                    </a>
-                </div>
                 <a href="#" class="addToCart">
                     <ion-icon name="cart-outline" class="Cart"></ion-icon>
                 </a>
