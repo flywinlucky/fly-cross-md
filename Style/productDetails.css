@@ -52,7 +52,8 @@ main .container {
     /* Dimensiune mai mare */
     font-weight: 500;
     /* Font semi-bold */
-    color: green; /* Medium grey */
+    color: green;
+    /* Medium grey */
     margin-bottom: 20px;
     position: relative;
 }
@@ -113,7 +114,8 @@ main .container {
 }
 
 #btn_add {
-    background-color: #51c942; /* Medium grey */
+    background-color: #51c942;
+    /* Medium grey */
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -123,15 +125,14 @@ main .container {
     /* Lățime 100% */
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;
-    /* Colțuri rotunjite */
     cursor: pointer;
     transition: background-color 0.3s;
     /* Animare la hover */
 }
 
 #btn_add:hover {
-    background-color: #48b03a; /* Slightly darker grey */
+    background-color: #48b03a;
+    /* Slightly darker grey */
 }
 
 /* Stiluri responsive */
@@ -160,17 +161,6 @@ main .container {
         width: 60px;
         /* Lățime mai mare pentru input pe ecrane mici */
     }
-}
-
-.sale-flag {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: red;
-    color: white;
-    padding: 2px 5px;
-    font-weight: bold;
-    z-index: 10;
 }
 
 .card-img {
@@ -207,7 +197,46 @@ main .container {
     max-width: 100%;
 }
 
-.sale-flag,
+
+.sale-flag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ff0000;
+    /* Medium grey */
+    color: white;
+    padding: 2px 5px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.card-img {
+    position: relative;
+    /* Permite poziționarea absolută a sale-flag */
+}
+
+.old-price {
+    font-weight: 500;
+    text-decoration: line-through;
+    /* Linia pe mijloc pentru prețul vechi */
+    color: #ff0000;
+    /* Poate adăuga o culoare deschisă pentru a face linia mai subtilă */
+}
+
+.new-flag {
+    position: absolute;
+    top: 0px;
+    /* Așezăm insigna sub insigna de reducere, dacă este activă */
+    left: 0px;
+    background-color: #28a745;
+    /* Slightly darker grey */
+    color: white;
+    padding: 2px 5px;
+    font-weight: bold;
+    z-index: 10;
+    /* Asigură-te că este deasupra imaginii */
+}
+
 .new-flag,
 .out-of-stock {
     position: absolute;
@@ -218,10 +247,6 @@ main .container {
     font-weight: bold;
     color: #fff;
     border-radius: 5px;
-}
-
-.sale-flag {
-    background-color: red;
 }
 
 .new-flag {
@@ -243,7 +268,8 @@ main .container {
     transform: translateY(-50%);
     padding: 0 10px;
     z-index: 20;
-    display: none; /* Default to none */
+    display: none;
+    /* Default to none */
 }
 
 .image-navigation button {
@@ -259,7 +285,6 @@ main .container {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 .image-navigation button ion-icon {
