@@ -19,28 +19,12 @@
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
     <!-- icon -->
-    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.1.0/ionicons/ionicons.esm.min.js"></script>
+    <script type="module"
+        src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.1.0/ionicons/ionicons.esm.min.js"></script>
     <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.1.0/ionicons/ionicons.min.js"></script>
-    
+
     <title>Jewelryady</title>
 </head>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();
-    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
- 
-    ym(100033152, "init", {
-         clickmap:true,
-         trackLinks:true,
-         accurateTrackBounce:true
-    });
- </script>
- <noscript><div><img src="https://mc.yandex.ru/watch/100033152" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
- <!-- /Yandex.Metrika counter -->
 
 <body>
     <header class="container" id="header">
@@ -48,11 +32,10 @@
             <img src="images/logo_block.png" alt="page logo" id="logo" onclick="window.location.href='index.html'">
 
             <nav>
-                <menu> 
+                <menu>
                     <ul class="nav-buttons">
                         <li><a href="index.html">Acasa</a></li>
                         <li><a href="products.html">Produse</a></li>
-                        <!--  <li><a href="reviews.html">Recenzii</a></li>-->
                     </ul>
                 </menu>
             </nav>
@@ -79,11 +62,11 @@
                 <!-- General order details will be populated here -->
             </div>
 
-            
+
             <div id="order-details" class="order-details">
                 <!-- Product details will be populated here -->
             </div>
-           
+
             <div id="form">
                 <div class="submit">
                     <button id="btn-login" onclick="window.location.href='index.html'">Întoarce-te în magazin.</button>
@@ -95,7 +78,7 @@
     <footer class="footer black-footer">
         <div class="footer-top">
             <div class="footer-list">
-  
+
                 <div class="list">
                     <h4>INFORMATII</h4>
                     <ul>
@@ -137,12 +120,12 @@
             if (orderDetails) {
                 const generalOrderDetailsContainer = document.getElementById("general-order-details");
                 const orderDetailsContainer = document.getElementById("order-details");
-    
+
                 const orderLines = orderDetails.split('\n');
                 let generalOrderInfo = "";
                 let productHtml = "";
                 let shippingInfoHtml = "";
-    
+
                 orderLines.forEach((line, index) => {
                     if (line.startsWith("Nume:") || line.startsWith("Locatia:") || line.startsWith("Telefon:") || line.startsWith("Telegram:") || line.startsWith("Codul Postal:")) {
                         // Dacă este informație de livrare, o adăugăm în `general-order-details`
@@ -156,13 +139,13 @@
                         let productName = productData[0].split(') ')[1]; // Extrage numele produsului
                         let productQuantity = productData[1].trim(); // Cantitatea
                         let productSize = productData[2].trim(); // Mărimea
-                        
+
                         // Verificăm dacă există imaginea produsului pe linia următoare
                         let productImage = "";
                         if (orderLines[index + 1] && orderLines[index + 1].includes("Imagine:")) {
                             productImage = orderLines[index + 1].split("Imagine: ")[1].trim();
                         }
-    
+
                         // Construim HTML-ul pentru produs
                         productHtml += `
                             <div class="product-container">
@@ -176,7 +159,7 @@
                         `;
                     }
                 });
-    
+
                 // Afișează informațiile de livrare
                 generalOrderDetailsContainer.innerHTML = shippingInfoHtml + "<br>" + generalOrderInfo;
                 // Afișează doar produsele în `order-details`
@@ -184,7 +167,7 @@
             }
         });
     </script>
-    
+
     <style>
         .general-order-details {
             border: 1px solid #ccc;
@@ -194,15 +177,18 @@
             border-radius: 5px;
             margin-bottom: 20px;
         }
+
         .order-details {
             display: flex;
-            flex-direction: column; /* Change to column for vertical alignment */
+            flex-direction: column;
+            /* Change to column for vertical alignment */
             overflow-x: auto;
             border: 1px solid #ccc;
             padding: 10px;
             background-color: #f9f9f9;
             border-radius: 5px;
         }
+
         .product-container {
             display: flex;
             flex-direction: row;
@@ -213,6 +199,7 @@
             border-radius: 5px;
             background-color: #fff;
         }
+
         .product-container img {
             max-width: 100px;
             margin-bottom: 10px;
